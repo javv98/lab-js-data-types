@@ -38,7 +38,7 @@ const billTotal = 84;
 
 // Calculate the tip (15% of the bill total)
 
-const tipAmount = billTotal/15
+const tipAmount = billTotal*0.15
 
 // Print out the tipAmount
 
@@ -50,11 +50,12 @@ console.log(`${tipAmount}$`)
 
 // Generate a random integer between 1 and 10 (inclusive)
 
-const randomInteger = (Math.random() * 10 - 1) + 1
+const number = (Math.random() * 10 - 1) + 1
+const randomNumber = Math.round(number)
 
 // Print the generated random number
 
-console.log(randomInteger)
+console.log(randomNumber)
 
 /*******************************************
     Iteration 3.1 | Booleans
